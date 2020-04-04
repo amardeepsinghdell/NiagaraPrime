@@ -1,0 +1,1 @@
+web: java -Dswarm.http.port=$PORT -jar target/SoapService-1.0-thorntail.jar

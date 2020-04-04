@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-CLEAN</actionName>
+            <displayName>CLEAN</displayName>
+            <goals>
+                <goal>clean</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-PACKAGE</actionName>
+            <displayName>PACKAGE</displayName>
+            <goals>
+                <goal>package</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-RUN</actionName>
+            <displayName>RUN</displayName>
+            <goals>
+                <goal>thorntail:run</goal>
+            </goals>
+        </action>
+    </actions>
